@@ -1,0 +1,22 @@
+{
+    "version": "0.0.1",
+    "manifest_version": 3,
+    "name": "ProtonMail reverse conversation",
+    "description": "Reverse conversation order, so the latest message is on top",
+    "icons": {
+        "16": "icon.png",
+        "48": "icon.png",
+        "128": "icon.png",
+        "256": "icon.png"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "https://mail.proton.me/*"
+            ],
+            "css": [
+                "style.css"
+            ]
+        }
+    ]
+}

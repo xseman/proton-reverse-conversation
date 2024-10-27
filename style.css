@@ -1,0 +1,17 @@
+.outline-none.pb-custom {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.outline-none.pb-custom:first-child {
+    margin-top: 16px
+}
+
+.outline-none.pb-custom>* {
+    margin-top: 0px
+}
+
+/* "unread conversation" button to top */
+.absolute.inset-x-center {
+    top: 20px
+}
